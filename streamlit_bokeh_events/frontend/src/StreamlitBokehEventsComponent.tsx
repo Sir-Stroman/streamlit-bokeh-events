@@ -4,7 +4,7 @@ import {
   StreamlitComponentBase,
   withStreamlitConnection,
 } from "streamlit-component-lib";
-import { embed_item } from "@bokeh/bokehjs";
+import { embed_item } from "@bokeh/bokehjs/lib/embed";
 
 declare global {
   interface Window {
